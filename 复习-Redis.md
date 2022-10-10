@@ -6,7 +6,7 @@ redis 使用的是 hashtable，实际上是一个数组 + 链表的形式，
 
 解决hash冲突的办法是 链表法
 
-![image-20221006005935466](.\typoraImg\image-20221006005935466.png)
+![image-20221006005935466](./typoraImg/image-20221006005935466.png)
 
 ### 扩容/缩容
 
@@ -52,7 +52,7 @@ redis 使用的是 hashtable，实际上是一个数组 + 链表的形式，
    1. ziplist
    2. skiplist
 
-![image-20221006105438424](.\typoraImg\image-20221006105438424.png)
+![image-20221006105438424](./typoraImg/image-20221006105438424.png)
 
 
 
@@ -60,7 +60,7 @@ redis 使用的是 hashtable，实际上是一个数组 + 链表的形式，
 
 ### 跳表
 
-![image-20221006111552831](.\typoraImg\image-20221006111552831.png)
+![image-20221006111552831](./typoraImg/image-20221006111552831.png)
 
 
 
@@ -98,7 +98,7 @@ Mysql 不使用跳表的原因：
 
 单线程模型：
 
-![image-20221005202037509](.\typoraImg\image-20221005202037509.png)
+![image-20221005202037509](./typoraImg/image-20221005202037509.png)
 
 客户端请求Redis 服务器，生成 socket  fd ， 通过IO 多路复用器，添加到一个队列里面，然后进行单线程处理，先经过事件分发器，然后到对应的事件处理中进行处理，
 

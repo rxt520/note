@@ -56,7 +56,7 @@ Multi-Version Concurrency Control
 
 undo 版本链就是指undo log的存储在逻辑上的表现形式，它被用于事务当中的**回滚操作**以及**实现MVCC**
 
-![image-20221007102936641](.\typoraImg\image-20221007102936641.png)
+![image-20221007102936641](./typoraImg/image-20221007102936641.png)
 
 #### Read View
 
@@ -126,7 +126,7 @@ binlog/redo log
 
 Innodb 的底层存储结构使用的B+树，
 
-![image-20221007114840016](.\typoraImg\image-20221007114840016.png)
+![image-20221007114840016](./typoraImg/image-20221007114840016.png)
 
 ### B+树特点
 
@@ -258,7 +258,7 @@ slave：
 
 字段如下：
 
-![image-20221007115103961](.\typoraImg\image-20221007115103961.png)
+![image-20221007115103961](./typoraImg/image-20221007115103961.png)
 
 ```
 1.id :是一个有顺序的编号，是查询的顺序号，有几个select就显示几行。id的顺序是按select 出现的
