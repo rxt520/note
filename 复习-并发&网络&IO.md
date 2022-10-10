@@ -115,7 +115,7 @@ synchronized可以修饰代码段，静态方法，实例方法，
 
 mark work 中 保存着 对象的 `hashCode` 锁信息 或 分代年龄 或 GC 标志等信息。
 
-![image-20221005114417389](.\typoraImg\image-20221005114417389.png)
+![image-20221005114417389](typoraImg\image-20221005114417389.png)
 
 
 
